@@ -21,3 +21,6 @@ console.log("-------------------------------------------")
 console.log('With pop(nameUsers, I remove the last element)')
 nameUsers.pop(nameUsers)
 console.log(nameUsers)
+
+console.log("-------------------------------------------")
+console.log("with unshift, we can add element in first indice")
