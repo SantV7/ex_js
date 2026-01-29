@@ -23,4 +23,13 @@ nameUsers.pop(nameUsers)
 console.log(nameUsers)
 
 console.log("-------------------------------------------")
-console.log("with unshift, we can add element in first indice")
+console.log("with unshift, we can add the element in first indice on array")
+
+nameUsers.unshift('VyTester')
+console.log(nameUsers)
+
+console.log("-------------------------------------------")
+console.log("with shift, we can remove the element in first indice on array")
+
+nameUsers.shift()
+console.log(nameUsers)
